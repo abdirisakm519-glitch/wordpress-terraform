@@ -1,0 +1,18 @@
+# Terraform state files and backups
+*.tfstate
+*.tfstate.*
+terraform-state-backup.json
+
+# Terraform working directory
+.terraform/
+
+# Sensitive variables
+*.tfvars
+*.tfvars.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Local Terraform plans
+*.tfplan
